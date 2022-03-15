@@ -1,0 +1,207 @@
+body {
+	font-size: 20px;
+	font-family: arial;
+	/*background-color: #54482e;*/
+	background-image: linear-gradient(to left, #312a1a, #54482e, #312a1a);
+
+
+
+}
+	
+.contenedor {
+	position: relative;
+	margin: 1.5em auto;
+	height: 30em;
+	width: 17em;
+	z-index: 1;
+}
+
+.boton {
+	box-sizing: border-box;
+	height: 2.45em;
+	width: 2.45em;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	background-color: #fff;
+	border: 3px solid #333;
+	border-radius: 50%;
+	box-shadow: 0em 0em .4em .15em #0009;
+	z-index: 2;
+}
+
+.boton:active {
+	background-color: #aaf;
+	border: 3px solid #22f;
+	
+}
+
+#boton_a3 {
+	top: 0.2em;
+	left: 3.2em;
+}
+#boton_as3 {
+	top: 2.1em;
+	left: 1em;
+}
+#boton_b3 {
+	top: 1.8em;
+	left: 6em;
+}
+#boton_f4 {
+	top: 3.6em;
+	left: 4em;
+}
+#boton_c4 {
+	top: 3.5em;
+	left: 8.5em;
+}
+#boton_ds4 {
+	top: 5.5em;
+	left: 2em;
+}
+#boton_e4 {
+	top: 5.3em;
+	left: 6.5em;
+}
+#boton_cs4 {
+	top: 5.1em;
+	left: 11em;
+}
+#boton_as4 {
+	top: 7.2em;
+	left: 4.6em;
+}
+#boton_d4 {
+	top: 7.1em;
+	left: 9.1em;
+}
+#boton_b6 {
+	top: 7.1em;
+	left: 13.6em;
+}
+#boton_f5 {
+	top: 9.1em;
+	left: 2.6em;
+}
+#boton_cs5 {
+	top: 9.2em;
+	left: 7.2em;
+}
+#boton_a6 {
+	top: 9em;
+	left: 11.5em;
+}
+#boton_gs4 {
+	top: 10.9em;
+	left: 5em;
+}
+#boton_g4 {
+	top: 11em;
+	left: 9.5em;
+}
+#boton_gs6 {
+	top: 11.1em;
+	left: 13.6em;
+}
+#boton_ds5 {
+	top: 12.7em;
+	left: 3em;
+}
+#boton_fs4 {
+	top: 12.9em;
+	left: 7.4em;
+}
+#boton_fs6 {
+	top: 13.2em;
+	left: 11.6em;
+}
+#boton_b4 {
+	top: 14.6em;
+	left: 5.2em;
+}
+#boton_as5 {
+	top: 15em;
+	left: 9.6em;
+}
+#boton_g6 {
+	top: 15.7em;
+	left: 13.7em;
+}
+#boton_gs6 {
+	top: 11.1em;
+	left: 13.6em;
+}
+#boton_fs5 {
+	top: 16.3em;
+	left: 3em;
+}
+#boton_a4 {
+	top: 16.7em;
+	left: 7.4em;
+}
+#boton_e6 {
+	top: 17.6em;
+	left: 11.4em;
+}
+#boton_d5 {
+	top: 18.3em;
+	left: 5.1em;
+}
+#boton_c6 {
+	top: 19.1em;
+	left: 9.2em;
+}
+#boton_f6 {
+	top: 20em;
+	left: 13.7em;
+}
+#boton_a5 {
+	top: 19.8em;
+	left: 2.7em;
+}
+#boton_c5 {
+	top: 20.5em;
+	left: 6.8em;
+}
+#boton_ds6 {
+	top: 21.3em;
+	left: 11.1em;
+}
+#boton_gs5 {
+	top: 21.9em;
+	left: 4.4em;
+}
+#boton_d6 {
+	top: 22.9em;
+	left: 8.8em;
+}
+#boton_cs6 {
+	top: 23.4em;
+	left: 2em;
+}
+#boton_e5 {
+	top: 24.2em;
+	left: 6.3em;
+}
+#boton_b5 {
+	top: 25.9em;
+	left: 3.6em;
+}
+#boton_g5 {
+	top: 27.2em;
+	left: 0.8em;
+}
+
+
+
+
+/*#imgref {
+	display: inline-block;
+	margin: 0px auto;
+	height: 90vh;
+	position: absolute;
+	top: 5vh;
+	left: 38vw;
+
+}*/
