@@ -1,0 +1,259 @@
+body {
+	font-size: 20px;
+	font-family: arial;
+	/*background-color: #54482e;*/
+	
+
+
+
+}
+.fondo {
+	background-image: linear-gradient(to left, #312a1a, #54482e, #312a1a);
+	transition: 2s;
+}
+	
+.contenedor {
+	position: relative;
+	margin: 1.5em auto;
+	height: 30em;	
+	width: 17em;
+	z-index: 1;
+}
+
+.boton, .botona, .botonc {
+	box-sizing: border-box;
+	height: 2.45em;
+	width: 2.45em;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	border: 3px solid #333;
+	border-radius: 50%;
+	user-select: none;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.boton {
+	z-index: 2;	
+	box-shadow: 0em 0em .4em .15em #0009;	
+	background-color: #fff;
+}
+.botona {
+	background-color: #0000;
+	z-index: 4;	
+}
+.botona:active {
+	background-color: #e7c681;
+	box-shadow: 0em 0em .4em .15em #fff;	
+}
+.botonc {
+	opacity: 0;
+	background-color: #0000;
+	z-index: 3;	
+}
+.botonc:active {
+	background-color: #af9764;
+	box-shadow: 0em 0em .4em .15em #fff;	
+}
+.boton:active {
+	background-color: #aaf;
+	border: 3px solid #22f;
+	
+}
+
+.botonCerrar {
+	font-size: 15px;
+	box-sizing: border-box;
+	height: 4em;
+	width: 6em;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	border: 3px solid #333;
+	border-radius: 30%;
+	user-select: none;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.botonCerrar:active {
+	content: "Modo Abriendo";
+}
+
+.botonCerrar {
+	top: 0.2em;
+	left: 15em;
+}
+
+#boton_a3, #boton_a3a, #boton_a3c {
+	top: 0.2em;
+	left: 3.2em;
+}
+#boton_as3, #boton_as3a, #boton_as3c {
+	top: 2.1em;
+	left: 1em;
+}
+#boton_b3, #boton_b3a, #boton_b3c {
+	top: 1.8em;
+	left: 6em;
+}
+#boton_f4, #boton_f4a, #boton_f4c {
+	top: 3.6em;
+	left: 4em;
+}
+#boton_c4, #boton_c4a, #boton_c4c {
+	top: 3.5em;
+	left: 8.5em;
+}
+#boton_ds4, #boton_ds4a, #boton_ds4c {
+	top: 5.5em;
+	left: 2em;
+}
+#boton_e4, #boton_e4a, #boton_e4c {
+	top: 5.3em;
+	left: 6.5em;
+}
+#boton_cs4, #boton_cs4a, #boton_cs4c {
+	top: 5.1em;
+	left: 11em;
+}
+#boton_as4, #boton_as4a, #boton_as4c {
+	top: 7.2em;
+	left: 4.6em;
+}
+#boton_d4, #boton_d4a, #boton_d4c {
+	top: 7.1em;
+	left: 9.1em;
+}
+#boton_b6, #boton_b6a, #boton_b6c {
+	top: 7.1em;
+	left: 13.6em;
+}
+#boton_f5, #boton_f5a, #boton_f5c {
+	top: 9.1em;
+	left: 2.6em;
+}
+#boton_cs5, #boton_cs5a, #boton_cs5c {
+	top: 9.2em;
+	left: 7.2em;
+}
+#boton_a6, #boton_a6a, #boton_a6c {
+	top: 9em;
+	left: 11.5em;
+}
+#boton_gs4, #boton_gs4a, #boton_gs4c {
+	top: 10.9em;
+	left: 5em;
+}
+#boton_g4, #boton_g4a, #boton_g4c {
+	top: 11em;
+	left: 9.5em;
+}
+#boton_gs6, #boton_gs6a, #boton_gs6c {
+	top: 11.1em;
+	left: 13.6em;
+}
+#boton_ds5, #boton_ds5a, #boton_ds5c {
+	top: 12.7em;
+	left: 3em;
+}
+#boton_fs4, #boton_fs4a, #boton_fs4c {
+	top: 12.9em;
+	left: 7.4em;
+}
+#boton_fs6, #boton_fs6a, #boton_fs6c {
+	top: 13.2em;
+	left: 11.6em;
+}
+#boton_b4, #boton_b4a, #boton_b4c {
+	top: 14.6em;
+	left: 5.2em;
+}
+#boton_as5, #boton_as5a, #boton_as5c {
+	top: 15em;
+	left: 9.6em;
+}
+#boton_g6, #boton_g6a, #boton_g6c {
+	top: 15.7em;
+	left: 13.7em;
+}
+#boton_gs6, #boton_gs6a, #boton_gs6c {
+	top: 11.1em;
+	left: 13.6em;
+}
+#boton_fs5, #boton_fs5a, #boton_fs5c {
+	top: 16.3em;
+	left: 3em;
+}
+#boton_a4, #boton_a4a, #boton_a4c {
+	top: 16.7em;
+	left: 7.4em;
+}
+#boton_e6, #boton_e6a, #boton_e6c {
+	top: 17.6em;
+	left: 11.4em;
+}
+#boton_d5, #boton_d5a, #boton_d5c {
+	top: 18.3em;
+	left: 5.1em;
+}
+#boton_c6, #boton_c6a, #boton_c6c {
+	top: 19.1em;
+	left: 9.2em;
+}
+#boton_f6, #boton_f6a, #boton_f6c {
+	top: 20em;
+	left: 13.7em;
+}
+#boton_a5, #boton_a5a, #boton_a5c {
+	top: 19.8em;
+	left: 2.7em;
+}
+#boton_c5, #boton_c5a, #boton_c5c {
+	top: 20.5em;
+	left: 6.8em;
+}
+#boton_ds6, #boton_ds6a, #boton_ds6c {
+	top: 21.3em;
+	left: 11.1em;
+}
+#boton_gs5, #boton_gs5a, #boton_gs5c {
+	top: 21.9em;
+	left: 4.4em;
+}
+#boton_d6, #boton_d6a, #boton_d6c {
+	top: 22.9em;
+	left: 8.8em;
+}
+#boton_cs6, #boton_cs6a, #boton_cs6c {
+	top: 23.4em;
+	left: 2em;
+}
+#boton_e5, #boton_e5a, #boton_e5c {
+	top: 24.2em;
+	left: 6.3em;
+}
+#boton_b5, #boton_b5a, #boton_b5c {
+	top: 25.9em;
+	left: 3.6em;
+}
+#boton_g5, #boton_g5a, #boton_g5c {
+	top: 27.2em;
+	left: 0.8em;
+}
+
+
+
+
+/*#imgref {
+	display: inline-block;
+	margin: 0px auto;
+	height: 90vh;
+	position: absolute;
+	top: 5vh;
+	left: 38vw;
+
+}*/
